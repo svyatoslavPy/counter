@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CounterHook } from '../hook/CounterHook';
+import { CounterHook } from '../hooks/CounterHook';
 
 export const Counter = () => {
 	const [counter, setCounter] = CounterHook(0);
